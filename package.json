@@ -1,0 +1,35 @@
+{
+  "name": "bridge-deezer-api",
+  "version": "1.0.0",
+  "description": "Connection bridge between auxona app and deezer app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/app.ts",
+    "start": "tsc && node dist/index.js",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pieromc07/bridge-deezer-api.git"
+  },
+  "author": "Piero Merino Carpio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pieromc07/bridge-deezer-api/issues"
+  },
+  "homepage": "https://github.com/pieromc07/bridge-deezer-api#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.15",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.20",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "winston": "^3.11.0"
+  }
+}
